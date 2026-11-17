@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
+<center>
 <div class="max-w-sm rounded-2xl bg-white
 p-6 shadow-lg">
 <h2 class="text-xl font-bold text-slate-900">
@@ -18,5 +19,7 @@ px-4 py-2 text-white">
 เริ่มเลย
 </button>
 </div>
+</center>
+`
 
 setupCounter(document.querySelector('#counter'))
